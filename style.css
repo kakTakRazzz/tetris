@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  canvas {
+    border: 1px solid white;
+  }
+
+  #score {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  #controls {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* .control-btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}  */
+
+/* Стили для кнопок управления */
+.button {
+  width: 50px; /* Ширина кнопки */
+  height: 50px; /* Высота кнопки */
+  border: none; /* Убираем границы кнопки */
+  background-color: transparent; /* Прозрачный фон */
+  color: white; /* Цвет текста (белый) */
+  font-size: 24px; /* Размер шрифта */
+  cursor: pointer; /* Изменяем курсор при наведении на кнопку */
+}
+
+/* Стили для чёрного прямоугольника вокруг кнопок */
+.button-container {
+  background-color: black; /* Цвет фона (чёрный) */
+  padding: 10px; /* Отступ вокруг кнопок */
+  border-radius: 5px; /* Скругление углов */
+  display: inline-block; /* Отображение в виде блока */
+}
